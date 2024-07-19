@@ -86,6 +86,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         gauge.setNeedsLayout()
         print("asdfghjkhgfdsdfghjkjhgfdsdfghjhgfds")
         print("ewtasgrefhsxjt")
+        print("rhrgdxcytgc")
     }
 
     // データの数（＝セルの数）を返すメソッド
