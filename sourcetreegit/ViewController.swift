@@ -63,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("develop")
+        print("developzsgdxfhcgjvb")
         testGaugeTable.register(UINib(nibName: "GaugeViewCell", bundle: nil), forCellReuseIdentifier: "GaugeViewCell")
         
         testGaugeTable.delegate = self
