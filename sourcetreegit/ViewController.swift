@@ -65,6 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         print("commit")
         // Do any additional setup after loading the view.
         print("develop")
+        print("aaaaaaaaaaaaaa")
         testGaugeTable.register(UINib(nibName: "GaugeViewCell", bundle: nil), forCellReuseIdentifier: "GaugeViewCell")
         
         testGaugeTable.delegate = self
