@@ -13,6 +13,8 @@
 		F595C7612C4A587500A9C0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595C75F2C4A587500A9C0E9 /* Main.storyboard */; };
 		F595C7632C4A587600A9C0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595C7622C4A587600A9C0E9 /* Assets.xcassets */; };
 		F595C7662C4A587600A9C0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595C7642C4A587600A9C0E9 /* LaunchScreen.storyboard */; };
+		F595C7772C4A5AA900A9C0E9 /* GaugeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F595C7752C4A5AA900A9C0E9 /* GaugeViewCell.xib */; };
+		F595C7782C4A5AA900A9C0E9 /* GaugeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595C7762C4A5AA900A9C0E9 /* GaugeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F595C7622C4A587600A9C0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F595C7652C4A587600A9C0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F595C7672C4A587600A9C0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595C7752C4A5AA900A9C0E9 /* GaugeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaugeViewCell.xib; sourceTree = "<group>"; };
+		F595C7762C4A5AA900A9C0E9 /* GaugeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F595C7622C4A587600A9C0E9 /* Assets.xcassets */,
 				F595C7642C4A587600A9C0E9 /* LaunchScreen.storyboard */,
 				F595C7672C4A587600A9C0E9 /* Info.plist */,
+				F595C7762C4A5AA900A9C0E9 /* GaugeViewCell.swift */,
+				F595C7752C4A5AA900A9C0E9 /* GaugeViewCell.xib */,
 			);
 			path = sourcetreegit;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				F595C7662C4A587600A9C0E9 /* LaunchScreen.storyboard in Resources */,
 				F595C7632C4A587600A9C0E9 /* Assets.xcassets in Resources */,
+				F595C7772C4A5AA900A9C0E9 /* GaugeViewCell.xib in Resources */,
 				F595C7612C4A587500A9C0E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				F595C75E2C4A587500A9C0E9 /* ViewController.swift in Sources */,
 				F595C75A2C4A587500A9C0E9 /* AppDelegate.swift in Sources */,
+				F595C7782C4A5AA900A9C0E9 /* GaugeViewCell.swift in Sources */,
 				F595C75C2C4A587500A9C0E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
