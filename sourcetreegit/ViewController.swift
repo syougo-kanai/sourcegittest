@@ -63,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("developzsgdxfhcgjvb")
+        print("develop")
         testGaugeTable.register(UINib(nibName: "GaugeViewCell", bundle: nil), forCellReuseIdentifier: "GaugeViewCell")
         
         testGaugeTable.delegate = self
@@ -83,7 +83,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         gauge.setNeedsDisplay()
         gauge.setNeedsLayout()
         print("asdfghjkhgfdsdfghjkjhgfdsdfghjhgfds")
-        
+        print("ewtasgrefhsxjt")
     }
 
     // データの数（＝セルの数）を返すメソッド
