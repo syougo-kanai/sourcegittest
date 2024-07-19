@@ -62,6 +62,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("commit")
         // Do any additional setup after loading the view.
         testGaugeTable.register(UINib(nibName: "GaugeViewCell", bundle: nil), forCellReuseIdentifier: "GaugeViewCell")
         
