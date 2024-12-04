@@ -37,14 +37,14 @@ class RunOrStopView: UIView {
         let width = self.bounds.width
         let totalHeight = CGFloat(clock.count) * (rectHeight + padding) - padding
 
-        for (index, gaugeCell) in gaugeWidth.enumerated() {
-            let barY = CGFloat(index) * (rectHeight + padding)
-            let gaugeView = UIView(frame: CGRect(x: 0, y: barY, width: width, height: rectHeight))
-            gaugeView.backgroundColor = defaultColor
-            self.addSubview(gaugeView)
-        }
+        for i in 0..<clock.count {
+                   let barY = CGFloat(i) * (rectHeight + padding)
+                   let gaugeView = UIView(frame: CGRect(x: 0, y: barY, width: width, height: rectHeight))
+                   gaugeView.backgroundColor = defaultColor
+                   self.addSubview(gaugeView)
+               }
     }
-        }
+}
     
 
 
@@ -75,7 +75,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func gaugeAddViews(gaugeView:UIView,index:Int) {
         super.viewDidLayoutSubviews()
-        gauge?.removeFromSuperview()
+       
         gauge = RunOrStopView(frame: gaugeView.bounds)
         gaugeView.addSubview(gauge)
         gauge.clock = clock
@@ -105,6 +105,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.startMinute.text = stringMinute[0]
         cell.endHour.text = String(clock[indexPath.row][2])
         cell.endMinute.text = stringMinute[1]
+        
+        for subview in cell.gaugeView.subviews {
+                    subview.removeFromSuperview()
+                }
         
         gaugeAddViews(gaugeView: cell.gaugeView, index: indexPath.row)
         
